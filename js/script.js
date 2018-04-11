@@ -30,6 +30,7 @@ function callGiphyAPIWithSearchTerm(searchTerm) {
   $("button").click(function(){
         var searchTerm = $("input").val();
         
+        
     callGiphyAPIWithSearchTerm(searchTerm);
     });
   
